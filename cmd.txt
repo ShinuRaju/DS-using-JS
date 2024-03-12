@@ -1,0 +1,5 @@
+cd "C:\Users\rajus\OneDrive\Desktop\vscode\one-compiler\ds"
+
+for %F in (*.js) do (
+    copy /Y "%F" "C:\Users\rajus\OneDrive\Desktop\vscode\ds-project\public\codes\%~nF.txt"
+)
